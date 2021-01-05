@@ -1,0 +1,661 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color:#054237;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 80px;
+    height: 75px;
+    border-radius: 100%;
+}
+
+nav{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 8vh;
+   background-color: #27db72;
+   font-family: 'Roboto', sans-serif;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     letter-spacing: 3px;
+     font-weight: bold;
+     font-size: 14px;
+     text-transform: uppercase;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+
+/*About section*/
+
+.about{
+    background-color: rgb(165, 235, 160);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-image{
+    width: 45%;
+    max-width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.about-image img{
+    max-height: 100%;
+    width: auto;
+    display: block;
+    opacity: 0.8;
+}
+
+/*Skill section*/
+
+.skills{
+    background-color: #0abf56;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.skills-header{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.skills-header h2,p{
+    padding-bottom: 30px;
+}
+
+.skills-columns{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.skills-columns li{
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.front-end-img img{
+    padding-bottom: 14px;
+}
+.back-end-img img{
+    padding-top: 10px;
+    padding-bottom: 17px;
+}
+.tools img{
+    padding-top: 10px;
+    padding-bottom: 17px;
+}
+/*Projects */
+.projects{
+    height: auto;
+    background-color:#069442;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.projects-header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.projects-header h2{
+   padding-bottom: 20px;
+}
+
+.proj1-img{
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+}
+.proj1-img img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+}
+.proj1-info{
+    width: 20%;
+    height: auto;
+}
+
+.proj2-img{
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+}
+
+.proj2-img img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+}
+.proj2-info{
+    width: 20%;
+    height: auto;
+}
+.proj3-img{
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+}
+
+.proj3-img img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+}
+.proj3-info{
+    width: 20%;
+    height: auto;
+}
+.proj1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.proj2{
+    display: flex;
+    justify-content: space-around;;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.proj3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.proj1-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.proj1-info h3{
+    padding-bottom: 15px;
+}
+.proj2-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.proj2-info h3{
+    padding-bottom: 15px;
+}
+.proj3-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.proj3-info h3{
+    padding-bottom: 15px;
+}
+
+.projects p{
+    padding-bottom: 10px;
+}
+.btn-div{
+    border-radius: 500px;
+    background-color: #18c755;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+    margin:  10px auto;
+    
+}
+.btn{
+   text-decoration: none;
+   color: #085f4f;
+}
+/*Testimonials*/
+
+.testimonials{
+    background-color: #1a9c51;
+    height:  800px;
+}
+
+
+/*Contact*/
+
+.contact{
+    height: 689px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#19bf5f;
+}
+
+.contact h3,p{
+    padding-bottom: 30px;
+}
+
+.contact-button{
+    padding:20px 20px;
+    align-self: center;
+    border-radius: 500px;
+    background-color:#18a849;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.contact-button a{
+    text-decoration: none;
+    color:  #085f4f;
+}
+
+/*Social media*/
+
+.social-media{
+    background-color:#1b9e48;
+    height: 153px;
+}
+
+.social-media h3{
+    padding-top: 30px;
+    padding-bottom:20px;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /*LinkedIn*/
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  /*Instagram*/
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+@media only screen and (max-width: 1024px){
+    .nav-links{
+        width:60%;
+    }
+    .nav-links li{
+        padding-right: 15px;
+    }
+    /*projects*/
+
+    .projects p{
+        font-size: 14px;
+    }
+    .projects a{
+        font-size: 14px;
+    }
+
+    /*Dark Mode*/
+    
+}
+
+@media only screen and (max-width: 768px){
+    #wrapper1{
+        position: absolute; 
+        width: 100%; 
+        overflow-x: hidden
+    }
+
+    #wrapper2{
+        position: absolute; 
+        width: 100%; 
+        overflow-x: hidden
+    }
+
+    .nav-links{
+        position: absolute;
+        right:  0px;
+        height: 79vh;
+        top: 15.5vh;
+        margin-right: 0px;
+        background-color: #27db72;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    
+    .nav-links li{
+        opacity: 0;
+        padding-right: 10px;
+    }
+    
+    .burger{
+        display: block;
+    }
+    /*Projects*/
+    .projects-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .proj1{
+       display: flex;
+       flex-direction: column-reverse;
+       margin-top: 10px;
+       margin-bottom: 10px;
+    } 
+    .proj1-img{
+        width: 90%;
+    }
+    .proj1-info {
+        margin: 20px auto;
+        width: 100%;
+    }
+    .proj2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+       margin-bottom: 10px;
+     } 
+    .proj2-img{
+        width: 90%;
+        margin:auto;
+    }
+    .proj2-info {
+        margin: 20px auto;
+        width: 100%;
+    }
+     .proj3{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 15px;
+        margin-bottom: 10px;
+     } 
+     .proj3-img{
+        width: 90%;
+        margin:auto;
+    }
+    .proj3-info {
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    /*Testimonials*/
+    
+    /*Contact*/
+    .contact-button{
+        padding: 5px 5px;
+    }
+
+    .contact p{
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 16px;
+    }
+    .contact h3{
+        font-size: 20px;
+    }
+} 
+
+
+.nav-active{
+    transform:translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform:translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+   transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+  opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+@media only screen and (max-width: 685px){
+    
+    body{
+        font-size: 15px;
+    }
+    .nav-links{
+        z-index: 10;
+    }
+
+    .about-image{
+        min-width: 300px;
+    }
+
+    .about-text{
+        position: absolute;
+        top: 520px;
+    }
+    
+    .skills-columns{
+        display: flex;
+        height: auto;
+        padding-bottom: 30px;
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    .front-end{
+        width: 100%;
+    }
+  
+    .back-end{
+        width:100%;
+        margin-top: 20px;
+    }
+
+    .tools{
+        width:100%;
+        margin-top: 20px;
+    }
+
+}
+
+/*Dark Mode*/
+
+.dark-mode{
+    background:#18522c;
+    color: seashell;
+}
+
+.dark-mode .navbar{
+    background:#133d22;
+    color: seashell;
+}
+
+.dark-mode .about{
+    background:#18522c;
+    color: seashell;
+}
+
+.dark-mode .nav-links{
+    background:#133d22;
+    color: seashell;
+}
+
+.dark-mode .skills{
+    background:#16572D;
+    color: seashell;
+}
+
+.dark-mode .projects{
+    background:#18522c;
+    color: seashell;
+}
+
+.dark-mode .btn-div{
+    background:#157E3A;
+}
+
+.dark-mode .btn{
+    color: seashell;
+}
+
+.dark-mode .testimonials{
+    background:#16572D;
+    color: seashell;
+}
+
+.dark-mode .contact{
+    background:#18522c;
+    color: seashell;
+}
+
+.dark-mode  .contact-button{
+    background:#157E3A;
+}
+
+.dark-mode .contact-a{
+    color: seashell;
+}
+
+.dark-mode .social-media{
+    background:#16572D;
+    color: seashell;
+}
+ 
+.wrapper-color-switch{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.color-switch{
+    width: 60px;
+    height: 30px;
+    border-radius: 10em;
+    border: 2px solid #16572D;
+    position: absolute;
+    top: 31px;
+    right: 32px;
+    cursor: pointer;
+    background-color: #c6c6c6;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+}
+
+.color-switch-toggle{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    border-radius: 10em;
+    top: 0.1em;
+    left: 0.1em;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+    background-color:  #10CC53;
+}
+
+
+.color-switch::before{
+    content: "Light Mode";
+    position: absolute;
+    display: inline-block;
+    width: 130px;
+    right: -32px;
+    top: 40px;
+    font-size: 16px;
+}
+
+
+#input-color-switch{
+    display: none;
+}
+
+#input-color-switch:checked ~ label .color-switch-toggle{
+    transform:  translateX(30px);
+}
+
+#input-color-switch:checked ~ .color-switch::before{
+    content: "Dark Mode";
+}
+
+
+
