@@ -2,7 +2,6 @@
 > It's my portfolio.
 
 ## Table of contents
-* [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Status](#status)
