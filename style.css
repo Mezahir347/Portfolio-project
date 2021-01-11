@@ -375,13 +375,13 @@ nav{
     #wrapper1{
         position: absolute; 
         width: 100%; 
-        overflow-x: hidden
+        overflow-x: hidden;
     }
 
     #wrapper2{
         position: absolute; 
         width: 100%; 
-        overflow-x: hidden
+        overflow-x: hidden;
     }
 
     .nav-links{
